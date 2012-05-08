@@ -12,16 +12,16 @@ Prerequisites
 Basic Usage
 -------------
 
-$ ./mysql-repmon.pl --host=SLAVE.MYSQL.COM -u USER --prompt
+    $ ./mysql-repmon.pl --host=SLAVE.MYSQL.COM -u USER --prompt
 
-  12:22:29 08-05-2012: replication running
-  Time     Date          Master   SlaveIO  SlaveSQL  Secs_Beh  SQL_next_statement
-  12:22:30 08-05-2012     33359     33843       923    146893  apli2.source_metri
-  12:22:31 08-05-2012     34397     33573      4906    146894  apli2.source_metri
-  12:22:32 08-05-2012    241189    242013       927    146895  apli2.source_metri
-  12:22:33 08-05-2012     26368     26368       923    146896  apli2.source_metri
-  12:22:34 08-05-2012     31152     31152      2964    146897  apli2.source_metri
-  12:22:35 08-05-2012     21434     21434      1505    146898  apli2.source_metri
+    12:22:29 08-05-2012: replication running
+    Time     Date          Master   SlaveIO  SlaveSQL  Secs_Beh  SQL_next_statement
+    12:22:30 08-05-2012     33359     33843       923    146893  apli2.source_metri
+    12:22:31 08-05-2012     34397     33573      4906    146894  apli2.source_metri
+    12:22:32 08-05-2012    241189    242013       927    146895  apli2.source_metri
+    12:22:33 08-05-2012     26368     26368       923    146896  apli2.source_metri
+    12:22:34 08-05-2012     31152     31152      2964    146897  apli2.source_metri
+    12:22:35 08-05-2012     21434     21434      1505    146898  apli2.source_metri
 
 Exit with Control-C at any time.
 
